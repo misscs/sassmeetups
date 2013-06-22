@@ -436,30 +436,66 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 18, ../sass/partials/styleguide/_style-guide.scss */
+h1 {
+  font-size: 2em;
+  line-height: 1.25em;
+}
+
+/* line 22, ../sass/partials/styleguide/_style-guide.scss */
+h2 {
+  font-size: 1.4375em;
+  line-height: 1.3913em;
+}
+
+/* line 26, ../sass/partials/styleguide/_style-guide.scss */
+h3 {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 30, ../sass/partials/styleguide/_style-guide.scss */
+h4 {
+  font-size: 0.6875em;
+  line-height: 1.45455em;
+}
+
+/* line 34, ../sass/partials/styleguide/_style-guide.scss */
+h5 {
+  font-size: 0.5em;
+  line-height: 2em;
+}
+
+/* line 38, ../sass/partials/styleguide/_style-guide.scss */
+h6 {
+  font-size: 0.375em;
+  line-height: 2.66667em;
+}
+
+/* line 42, ../sass/partials/styleguide/_style-guide.scss */
 a {
   text-decoration: underline;
 }
 
-/* line 23, ../sass/partials/styleguide/_style-guide.scss */
+/* line 47, ../sass/partials/styleguide/_style-guide.scss */
 blockquote {
   font-style: italic;
 }
 
-/* line 27, ../sass/partials/styleguide/_style-guide.scss */
+/* line 51, ../sass/partials/styleguide/_style-guide.scss */
 #skip-link, .element-invisible {
   position: absolute;
   left: -9999px;
   top: -9999px;
 }
 
-/* line 32, ../sass/partials/styleguide/_style-guide.scss */
+/* line 56, ../sass/partials/styleguide/_style-guide.scss */
 .item-list {
   float: left;
   width: 100%;
   overflow: hidden;
   position: relative;
 }
-/* line 38, ../sass/partials/styleguide/_style-guide.scss */
+/* line 62, ../sass/partials/styleguide/_style-guide.scss */
 .item-list .pager {
   clear: left;
   float: left;
@@ -467,7 +503,7 @@ blockquote {
   left: 50%;
   text-align: center;
 }
-/* line 45, ../sass/partials/styleguide/_style-guide.scss */
+/* line 69, ../sass/partials/styleguide/_style-guide.scss */
 .item-list .pager li {
   display: block;
   float: left;
@@ -477,7 +513,7 @@ blockquote {
   margin-right: 1em;
 }
 
-/* line 57, ../sass/partials/styleguide/_style-guide.scss */
+/* line 81, ../sass/partials/styleguide/_style-guide.scss */
 form label {
   display: block;
   margin-top: 0em;
@@ -485,7 +521,7 @@ form label {
   padding-bottom: 0.5em;
   margin-bottom: 0em;
 }
-/* line 61, ../sass/partials/styleguide/_style-guide.scss */
+/* line 85, ../sass/partials/styleguide/_style-guide.scss */
 form input[type='text'], form input[type='password'], form textarea {
   width: 100%;
   margin-top: 0em;
@@ -498,7 +534,7 @@ form input[type='text'], form input[type='password'], form textarea {
   -moz-border-radius: 8px / 8px;
   border-radius: 8px / 8px;
 }
-/* line 68, ../sass/partials/styleguide/_style-guide.scss */
+/* line 92, ../sass/partials/styleguide/_style-guide.scss */
 form .form-item {
   margin-top: 0em;
   padding-top: 0em;
@@ -506,7 +542,7 @@ form .form-item {
   margin-bottom: 2em;
 }
 
-/* line 73, ../sass/partials/styleguide/_style-guide.scss */
+/* line 97, ../sass/partials/styleguide/_style-guide.scss */
 table {
   width: 100%;
   font-size: inherit;
