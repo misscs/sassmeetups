@@ -24,11 +24,12 @@
 
         <div class="container">
           <div class="site">
-            <div class="header">
+            <header class="header">
               <h1 class="title"><a href="/">{{ site.name }}</a></h1>
               <a class="extra" href="/">home</a>
-            </div>
-                YO Sassmeetups!!
+                {% include navigation.html %}
+
+            </header>
                 {{ content }}
 
             <div class="footer">
@@ -47,6 +48,9 @@
               </div>
             </div>
           </div>
+
+        {% include footer.html %}
+
         </div> <!-- /container -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
