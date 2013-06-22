@@ -5,10 +5,15 @@ GEM
       compass (>= 0.12.1)
       sass (>= 3.2.0)
     chunky_png (1.2.8)
+    color-schemer (0.2.5)
+      compass (~> 0.12)
+      compass-blend-modes (~> 0.0.2)
     compass (0.12.2)
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
+    compass-blend-modes (0.0.2)
+      compass
     compass-normalize (1.4.3)
       compass (>= 0.12.0)
     fssm (0.2.10)
@@ -34,6 +39,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  color-schemer (~> 0.2.5)
   compass-normalize
   sass-globbing (~> 1.1.0)
   singularity-extras (~> 0.0.3)

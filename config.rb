@@ -5,6 +5,7 @@ require 'sass-globbing'
 require 'singularitygs'
 require 'singularity-extras'
 require 'compass-normalize'
+require 'color-schemer'
 
 ##
 # Sass options:
