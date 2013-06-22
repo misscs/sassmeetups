@@ -436,48 +436,91 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 18, ../sass/partials/styleguide/_style-guide.scss */
+h1 {
+  font-size: 2em;
+  line-height: 1.25em;
+  margin-top: 0.25em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1em;
+}
+
+/* line 23, ../sass/partials/styleguide/_style-guide.scss */
+h2 {
+  font-size: 1.4375em;
+  line-height: 1.3913em;
+  margin-top: 0.34783em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.04348em;
+}
+
+/* line 28, ../sass/partials/styleguide/_style-guide.scss */
+h3 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 0.5em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.5em;
+}
+
+/* line 33, ../sass/partials/styleguide/_style-guide.scss */
+h4 {
+  font-size: 0.6875em;
+  line-height: 1.45455em;
+  margin-top: 0.72727em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 2.18182em;
+}
+
+/* line 38, ../sass/partials/styleguide/_style-guide.scss */
+h5 {
+  font-size: 0.5em;
+  line-height: 2em;
+  margin-top: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 3em;
+}
+
+/* line 43, ../sass/partials/styleguide/_style-guide.scss */
+h6 {
+  font-size: 0.375em;
+  line-height: 2.66667em;
+  margin-top: 1.33333em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 4em;
+}
+
+/* line 48, ../sass/partials/styleguide/_style-guide.scss */
+p {
+  margin-top: 0.5em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.5em;
+}
+
+/* line 52, ../sass/partials/styleguide/_style-guide.scss */
 a {
   text-decoration: underline;
 }
 
-/* line 23, ../sass/partials/styleguide/_style-guide.scss */
+/* line 57, ../sass/partials/styleguide/_style-guide.scss */
 blockquote {
   font-style: italic;
 }
 
-/* line 27, ../sass/partials/styleguide/_style-guide.scss */
+/* line 61, ../sass/partials/styleguide/_style-guide.scss */
 #skip-link, .element-invisible {
   position: absolute;
   left: -9999px;
   top: -9999px;
 }
 
-/* line 32, ../sass/partials/styleguide/_style-guide.scss */
-.item-list {
-  float: left;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-/* line 38, ../sass/partials/styleguide/_style-guide.scss */
-.item-list .pager {
-  clear: left;
-  float: left;
-  position: relative;
-  left: 50%;
-  text-align: center;
-}
-/* line 45, ../sass/partials/styleguide/_style-guide.scss */
-.item-list .pager li {
-  display: block;
-  float: left;
-  list-style: none;
-  position: relative;
-  right: 50%;
-  margin-right: 1em;
-}
-
-/* line 57, ../sass/partials/styleguide/_style-guide.scss */
+/* line 66, ../sass/partials/styleguide/_style-guide.scss */
 form label {
   display: block;
   margin-top: 0em;
@@ -485,7 +528,7 @@ form label {
   padding-bottom: 0.5em;
   margin-bottom: 0em;
 }
-/* line 61, ../sass/partials/styleguide/_style-guide.scss */
+/* line 70, ../sass/partials/styleguide/_style-guide.scss */
 form input[type='text'], form input[type='password'], form textarea {
   width: 100%;
   margin-top: 0em;
@@ -498,7 +541,7 @@ form input[type='text'], form input[type='password'], form textarea {
   -moz-border-radius: 8px / 8px;
   border-radius: 8px / 8px;
 }
-/* line 68, ../sass/partials/styleguide/_style-guide.scss */
+/* line 77, ../sass/partials/styleguide/_style-guide.scss */
 form .form-item {
   margin-top: 0em;
   padding-top: 0em;
@@ -506,7 +549,7 @@ form .form-item {
   margin-bottom: 2em;
 }
 
-/* line 73, ../sass/partials/styleguide/_style-guide.scss */
+/* line 82, ../sass/partials/styleguide/_style-guide.scss */
 table {
   width: 100%;
   font-size: inherit;
