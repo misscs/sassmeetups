@@ -1,0 +1,29 @@
+/**
+  *   Base Partials
+  * 
+  *   Generally included here are only Compass Extension
+  *   imports and imports for variables, functions, mixins, and extendables.
+*/
+
+/**
+  *   Compass Imports
+*/
+@import 'compass';
+
+
+/**
+  *   Compass Extensions
+*/
+@import 'singularitygs';
+@import 'singularity-extras';
+@import 'color-schemer';
+@import 'normalize';
+
+
+/**
+  *   Private Imports
+*/
+@import 'variables';
+@import 'functions';
+@import 'mixins';
+@import 'extendables';
