@@ -33,9 +33,9 @@ sass_options[:debug_info] = false
 #   $ compass compile -e production --force
 #
 
-sass_dir             = "css/src"
-css_dir              = (environment == :production ? "css/prod" : "css/dev")
-images_dir           = "img/src"
+sass_dir             = "sass"
+css_dir              = "css"
+images_dir           = "img"
 generated_images_dir = (environment == :production ? "img/prod" : "img/dev")
 fonts_dir            = "fonts"
 javascripts_dir      = "js"
